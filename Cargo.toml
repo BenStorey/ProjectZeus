@@ -6,3 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+sdl2 = "0.35"
+gl = "0.14.0"
+ultraviolet = { version = "0.9", features = [ "f64", "int" ] }
+rand = "0.8.5"
